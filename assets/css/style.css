@@ -25,6 +25,10 @@
     background-color: #fff;
 }
 
+.bg-color-personal-info {
+    background-color: #f4f4f4;
+}
+
 /* -------------------------------------------------------------------Heading */
 
 header {
@@ -239,4 +243,41 @@ footer {
 
 .three-reasons-heading {
     margin-bottom: 15px;
+}
+
+/* -------------------------------------------------------------------Personal info */
+
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+/* clear both incase of using float */
+
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+/* div default block level element so display:inline */
+
+.personal-info-item .key p,
+.personal-info-item .value p{
+    margin: 0;
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    position: relative;
+    width: 60%;
 }
